@@ -14,18 +14,29 @@ body {
     position: relative;
     color: #FFFFFF;
     z-index: 9;
+    background-image: url(/images/Sinnoh.png);
+    background-repeat: round;
 }
 
 h1 {
     font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
     text-align: center;
-    font-size: 50px;
-    color: #FFFFFF;
+    font-size: 80px;
+    color: #000000;
 }
 
-table, th, td, table-bordered {
+table, th, tr, td {
+    border-color: #000000;
     border: 2px solid #000000;
+    background-color: #696867;
 }
+
+ryantable {
+    background-color: rgba(255, 255, 255, .5);
+    color: rgba(255, 255, 255, .5);
+}
+
 .overlay{
   position: absolute;
   top: 0;
@@ -44,7 +55,7 @@ background-repeat: repeat;
 }
 
 hr{
-   border: 2px solid #ffffff;
+   border: 2px solid #000000;
 }
 
 .trainer{
@@ -53,9 +64,10 @@ height: 110px;
     text-align: center;
 }
 
-.badge {
+.badgeyes {
     height: auto;
     width: auto;
+    opacity: 1;
 }
 
 .nobadge {
@@ -63,6 +75,7 @@ height: 110px;
     filter: grayscale(100%);
     height: auto;
     width: auto;
+    opacity: 0.25;
 }
 
 .level {
@@ -144,4 +157,8 @@ td {
 
 .centur {
     text-align: center;
+}
+
+.table-dan:hover {
+      background-color: #2dad1c;
 }
