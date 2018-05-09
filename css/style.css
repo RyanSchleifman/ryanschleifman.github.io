@@ -7,6 +7,7 @@ html {
 
 body {
     font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
     background-color: #000000;
     min-height: 100%;
     position: relative;
@@ -43,4 +44,21 @@ background-repeat: repeat;
 
 hr{
    border: 2px solid #ffffff;
+}
+
+.trainer{
+height: 110px;
+    width: 50;
+}
+
+.badge {
+    height: 25px;
+    widows: 25px;
+}
+
+.nobadge {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    height: auto;
+    widows: auto;
 }
