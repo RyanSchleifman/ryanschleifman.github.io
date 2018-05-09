@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand|Oswald|Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Oxygen|Rajdhani);
+
+html {
+  min-height: 100%;
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    background-color: #000000;
+    min-height: 100%;
+    position: relative;
+    color: #FFFFFF;
+    z-index: 9;
+}
+
+h1 {
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+table, th, td, table-bordered {
+    border: 2px solid #000000;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  opacity: 0.5;
+background-repeat: repeat;
+    background-image: url("/images/snow-transparent.gif");
+}
+
+.center {    
+     margin-left:auto; 
+    margin-right:auto;
+}
+
+hr{
+   border: 2px solid #ffffff;
+}
