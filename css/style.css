@@ -1,12 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Quicksand|Oswald|Poiret+One);
-@import url(https://fonts.googleapis.com/css?family=Oxygen|Rajdhani);
+@import url(https://fonts.googleapis.com/css?family=Oxygen|Rajdhani|Josefin+Sans);
+
 
 html {
   min-height: 100%;
 }
 
 body {
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     background-color: #000000;
     min-height: 100%;
@@ -48,17 +49,99 @@ hr{
 
 .trainer{
 height: 110px;
-    width: 50;
+    width: auto;
+    text-align: center;
 }
 
 .badge {
-    height: 25px;
-    widows: 25px;
+    height: auto;
+    width: auto;
 }
 
 .nobadge {
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
     height: auto;
-    widows: auto;
+    width: auto;
+}
+
+.level {
+    font-size: 15px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+.water {
+    color: #4e8cff;
+}
+
+.fire {
+    color: #ff4f30;
+}
+
+.grass {
+    color: #4ac200;
+}
+
+.normal {
+    color: #e0c89c;
+}
+
+.psychic {
+    color: #4e8cff;
+}
+
+.poison {
+    color: #4e8cff;
+}
+
+.ground {
+    color: #4e8cff;
+}
+
+.rock {
+    color: #4e8cff;
+}
+
+.flying {
+    color: #d7c3e3;
+}
+
+.electric {
+    color: #4e8cff;
+}
+
+.steel {
+    color: #4e8cff;
+}
+
+.ghost {
+    color: #4e8cff;
+}
+
+.dark {
+    color: #4e8cff;
+}
+
+.fighting {
+    color: #4e8cff;
+}
+
+.bug {
+    color: #4e8cff;
+}
+
+.ice {
+    color: #4e8cff;
+}
+
+.dragon {
+    color: #4e8cff;
+}
+
+.centur {
+    text-align: center;
 }
