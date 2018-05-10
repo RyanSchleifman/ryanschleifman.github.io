@@ -1,9 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Quicksand|Oswald|Poiret+One);
 @import url(https://fonts.googleapis.com/css?family=Oxygen|Rajdhani|Josefin+Sans);
+@import url('https://fonts.googleapis.com/css?family=Acme');
 
 
 html {
   min-height: 100%;
+}
+
+.name {
+    font-family: 'Acme', sans-serif;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+breadcrumb {
+    text-align: center;
+}
+
+tr:hover {
+    background-color: aqua;
 }
 
 body {
@@ -161,4 +176,19 @@ td {
 
 .table-dan:hover {
       background-color: #2dad1c;
+}
+
+pokedex {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
 }
