@@ -103,11 +103,11 @@ td {
 }
 
 .water {
-    color: #4e8cff;
+    color: #6890F0;
 }
 
 .fire {
-    color: #ff4f30;
+    color: #F08030;
 }
 
 .grass {
@@ -119,7 +119,7 @@ td {
 }
 
 .psychic {
-    color: #4e8cff;
+    color: #F85888;
 }
 
 .poison {
@@ -127,7 +127,7 @@ td {
 }
 
 .ground {
-    color: #4e8cff;
+    color: #E0C068;
 }
 
 .rock {
@@ -135,11 +135,11 @@ td {
 }
 
 .flying {
-    color: #d7c3e3;
+    color: #A890F0;
 }
 
 .electric {
-    color: #4e8cff;
+    color: #F8D030;
 }
 
 .steel {
@@ -159,11 +159,11 @@ td {
 }
 
 .bug {
-    color: #4e8cff;
+    color: #A8B820;
 }
 
 .ice {
-    color: #4e8cff;
+    color: #98D8D8;
 }
 
 .dragon {
