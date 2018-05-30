@@ -24,12 +24,11 @@ tr:hover {
 body {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
-    background-color: #000000;
+    background-color: #FFFFFF;
     min-height: 100%;
     position: relative;
-    color: #FFFFFF;
+    color: #5c5b5b;
     z-index: 9;
-    background-image: url(/images/Sinnoh.png);
     background-repeat: round;
 }
 
@@ -38,13 +37,13 @@ h1 {
     font-weight: bold;
     text-align: center;
     font-size: 80px;
-    color: #000000;
+    color: #363534;
 }
 
 table, th, tr, td {
     border-color: #000000;
     border: 2px solid #000000;
-    background-color: #696867;
+    background-color: #FFFFFF;
 }
 
 ryantable {
@@ -77,6 +76,11 @@ hr{
 height: 110px;
     width: auto;
     text-align: center;
+    padding: 5px;
+}
+
+.pokemon {
+    padding: 5px;
 }
 
 .badgeyes {
@@ -151,7 +155,7 @@ td {
 }
 
 .dark {
-    color: #4e8cff;
+    color: #705848;
 }
 
 .fighting {
@@ -174,6 +178,9 @@ td {
     text-align: center;
 }
 
+.center {
+    align-items: center;
+}
 .table-dan:hover {
       background-color: #2dad1c;
 }
