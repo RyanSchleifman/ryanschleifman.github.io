@@ -192,6 +192,10 @@ pokedex {
     color: #ffffff;
 }
 
+paddington {
+    padding: 5px;
+}
+
 a {
     color: inherit;
 }
@@ -208,4 +212,8 @@ a:hover {
 }
 .paddingright {
     padding-right: 5px;
+}
+
+.paddingtop {
+    padding-top: 5px;
 }
