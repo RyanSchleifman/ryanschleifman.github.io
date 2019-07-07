@@ -210,8 +210,20 @@ a:hover {
 .paddingleft {
     padding-left: 5px;
 }
+.paddingtleft {
+    padding-left: 2px;
+}
+.paddinguleft {
+    padding-left: 11px;
+}
 .paddingright {
     padding-right: 5px;
+}
+.paddinguright {
+    padding-right: 8px;
+}
+.paddingtright {
+    padding-right: 2px;
 }
 
 .paddingtop {
