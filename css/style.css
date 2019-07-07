@@ -225,7 +225,14 @@ a:hover {
 .paddingtright {
     padding-right: 2px;
 }
-
 .paddingtop {
     padding-top: 5px;
+}
+.genderfemale {
+    font-size: 20px;
+    color: #f542e9;
+}
+.gendermale {
+    font-size: 20px;
+    color: #42c8f5;
 }
