@@ -13,15 +13,33 @@ html {
     text-decoration: underline;
 }
 
+.region {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+
+
 breadcrumb {
     text-align: center;
 }
 
-tr:hover {
-    background-color: aqua;
+.johtosite {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    background-color: black;
+    min-height: 100%;
+    position: relative;
+    color: #5c5b5b;
+    z-index: 9;
 }
 
-body {
+.title {
+    color: #FFFFFF;
+}
+
+.sinnohsite {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     background-color: #FFFFFF;
@@ -29,7 +47,8 @@ body {
     position: relative;
     color: #5c5b5b;
     z-index: 9;
-    background-repeat: round;
+    background-repeat: repeat-y;
+    background-image: url();
 }
 
 h1 {
@@ -42,8 +61,14 @@ h1 {
 
 table, th, tr, td {
     border-color: #000000;
-    border: 2px solid #000000;
-    background-color: #FFFFFF;
+    border: 2px solid #949494;
+    background-color: #ffffff;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border-color: #949494;
 }
 
 ryantable {
@@ -69,7 +94,7 @@ background-repeat: repeat;
 }
 
 hr{
-   border: 2px solid #000000;
+   border: 2px solid #FFFFFF;
 }
 
 .trainer{
@@ -101,10 +126,7 @@ height: 110px;
     font-size: 15px;
 }
 
-td {
-    padding: 10px;
-    text-align: center;
-}
+
 
 .water {
     color: #6890F0;
@@ -176,13 +198,12 @@ td {
 
 .centur {
     text-align: center;
+    border-color: #FFFFFF;
 }
 
-.center {
+.center.white {
     align-items: center;
-}
-.table-dan:hover {
-      background-color: #2dad1c;
+    border-color: #FFFFFF;
 }
 
 pokedex {
@@ -190,6 +211,7 @@ pokedex {
     font-size: 14px;
     text-align: center;
     color: #ffffff;
+    padding-left: 10px;
 }
 
 paddington {
